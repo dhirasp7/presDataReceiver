@@ -92,7 +92,7 @@ public class PresSensor {
 
 	@Override
 	public String toString() {
-		return "TemperatureSensor [id=" + id + ", name=" + name + ", classification=" + classification + ", createDate="
+		return "PressureSensor [id=" + id + ", name=" + name + ", classification=" + classification + ", createDate="
 				+ createDate + ", value=" + value + "]";
 	}
 	

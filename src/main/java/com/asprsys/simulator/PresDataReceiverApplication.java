@@ -16,11 +16,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author Richard Chesterwood
  */
 @SpringBootApplication
-public class TempDataReceiverApplication {
+public class PresDataReceiverApplication {
 
 	public static void main(String[] args)
 	{
-	    SpringApplication.run(TempDataReceiverApplication.class, args);
+	    SpringApplication.run(PresDataReceiverApplication.class, args);
 	}
 
 }

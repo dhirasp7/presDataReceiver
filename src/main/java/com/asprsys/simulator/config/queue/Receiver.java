@@ -35,7 +35,7 @@ public class Receiver {
 		if (value.length() > 15)
 			value = value.substring(0, 15);
 		String reportDate = message.get("time");
-		if (Double.parseDouble(value) > 12.5)
+		if (Double.parseDouble(value) > 12.9)
 			postToAnalomyQueue(sensorName, value, reportDate);
 		PresSensor tempSensor = tSensorManager.saveData(sensorName, null, reportDate, value);
 
